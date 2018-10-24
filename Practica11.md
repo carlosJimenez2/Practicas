@@ -38,55 +38,136 @@ El tamaño de letra debe ser de 16px para los campos de entrada y el resultado.
 Los campos en la forma solo deben de aceptar numeros. 
 
 **Analisis de requisitos** 
-1. Desarrollar una herramienta que permita sumar Y restar el conjunto de números reales.
+R1. Desarrollar una herramienta que permita sumar Y restar el conjunto de números reales.
     - [X] Unico
     - [X] No es contradictorio
     - [X] Se puede probar 
     - [X] No es ambiguo
  
-2. El resultado se debe de desplegar una vez que se presionó el botón de "resultado" en la aplicación y no debe de ser mayor a 4 digitos.
+R2. El resultado se debe de desplegar una vez que se presionó el botón de "resultado" en la aplicación y no debe de ser mayor a 4 digitos.
     - [X] Unico
     - [X] No es contradictorio
     - [X] Se puede probar 
     - [X] No es ambiguo
     
-3. Se debe de realizar la operacion de acuerdo a la opcion seleccionada. 
+R3. Se debe de realizar la operacion de acuerdo a la opcion seleccionada. 
     - [X] Unico
     - [X] No es contradictorio
     - [X] Se puede probar 
     - [x] No es ambiguo
     
-4. Ambos campos deben de contener informacion parapoder realizar la operacion.
+R4. Ambos campos deben de contener informacion parapoder realizar la operacion.
     - [x] Unico
     - [X] No es contradictorio
     - [X] Se puede probar 
     - [X] No es ambiguo
     
-5. La aplicacion debe de desplegar un mensaje de que faltan datos, mostrando en que parte falta el dato.
+R5. La aplicacion debe de desplegar un mensaje de que faltan datos, mostrando en que parte falta el dato.
     - [X] Unico
     - [X] No es contradictorio
     - [X] Se puede probar 
     - [X] No es ambiguo
     
-6. Los datos de entrada no deben de ser mayores a 3 digitos. 
+R6. Los datos de entrada no deben de ser mayores a 3 digitos. 
     - [X] Unico
     - [X] No es contradictorio
     - [X] Se puede probar 
     - [X] No es ambiguo
     
-7. El tamaño de letra debe ser de 16px para los campos de entrada y el resultado.
+R7. El tamaño de letra debe ser de 16px para los campos de entrada y el resultado.
     - [X] Unico
     - [X] No es contradictorio
     - [X] Se puede probar 
     - [X] No es ambiguo
     
-8. Los campos en la forma solo deben de aceptar numeros. 
+R8. Los campos en la forma solo deben de aceptar numeros. 
     - [x] Unico
     - [x] No es contradictorio
     - [x] Se puede probar 
     - [x] No es ambiguo
     
-   
+### **Casos de prueba**
+
+Condiciones previas: 
+El dispositivo de prueba debe de ser un disposititvo con sistema operativo addrioid IceScream Sandwich o mayor. 
+La herramienta debe de estar previamente instalada. 
+
+*TestCase ID/* TC1R1
+*TestCaseScenario/* Probar que la herramienta permita sumar y restar un conjunto de numero reales enteros. 
+1. Ingresar 100 en el primer caso. 
+2. Ingresar 25 en el segundo caso.
+3. Seleccionar la operación Suma.
+4. Precionar el boton de Resultado. 
+*Expected Results/* 
+La aplicación debe de desplegar el resultado igual a 125.
+*Pass/Fail:*
+
+
+*TestCase ID/* TC2R1
+*TestCaseScenario/* Probar que la herramienta permita sumar y restar un conjunto de numero reales enteros. 
+1. Ingresar 100 en el primer caso. 
+2. Ingresar 25 en el segundo caso.
+3. Seleccionar la operación Resta.
+4. Precionar el boton de Resultado. 
+*Expected Results/* 
+La aplicación debe de desplegar el resultado igual a 75.
+*Pass/Fail:*
+
+*TestCase ID/* TC3R1
+*TestCaseScenario/* Probar que la herramienta permita sumar y restar un conjunto de numero reales enteros. 
+1. Ingresar -100 en el primer caso. 
+2. Ingresar -25 en el segundo caso.
+3. Seleccionar la operación Suma.
+4. Precionar el boton de Resultado. 
+*Expected Results/* 
+La aplicación debe de desplegar el resultado igual a -125.
+*Pass/Fail:*
+
+*TestCase ID/* TC4R1
+*TestCaseScenario/* Probar que la herramienta permita sumar y restar un conjunto de numero reales enteros. 
+1. Ingresar -100 en el primer caso. 
+2. Ingresar -25 en el segundo caso.
+3. Seleccionar la operación Resta.
+4. Precionar el boton de Resultado. 
+*Expected Results/* 
+La aplicación debe de desplegar el resultado igual a -75.
+*Pass/Fail:*
+
+
+*TestCase ID/* TC5R1
+*TestCaseScenario/* Probar que la herramienta permita sumar y restar un conjunto de numero reales enteros. 
+1. Ingresar 100 en el primer caso. 
+2. Ingresar -25 en el segundo caso.
+3. Seleccionar la operación Suma.
+4. Precionar el boton de Resultado. 
+*Expected Results/* 
+La aplicación debe de desplegar el resultado igual a -75.
+*Pass/Fail:*
+
+
+
+    
+1. Desarrollar una herramienta que permita sumar Y restar el conjunto de números reales.
+
+ 
+2. El resultado se debe de desplegar una vez que se presionó el botón de "resultado" en la aplicación y no debe de ser mayor a 4 digitos.
+
+    
+3. Se debe de realizar la operacion de acuerdo a la opcion seleccionada. 
+
+    
+4. Ambos campos deben de contener informacion parapoder realizar la operacion.
+
+    
+5. La aplicacion debe de desplegar un mensaje de que faltan datos, mostrando en que parte falta el dato.
+
+    
+6. Los datos de entrada no deben de ser mayores a 3 digitos. 
+
+7. El tamaño de letra debe ser de 16px para los campos de entrada y el resultado.
+
+8. Los campos en la forma solo deben de aceptar numeros. 
+
    /*
  * Copyright 2017 Google Inc.
  *
