@@ -122,11 +122,13 @@ Mmed=(n2-n)/4
 * Lento 
 * Realizanumerosas comparaciones 
 
---- 
-# Eso, eso, eso es todo amigos. 
-🙉🙉🙊
 ---
 ## Fuentes consultadas
 * file:///C:/Users/alumnos/Downloads/A06.pdf
 * http://mapaches.itz.edu.mx/~mbarajas/edinf/Ordenamiento.pdf
 * https://es.slideshare.net/tavo_3315_/insercin-directa-algoritmos-41637040
+
+---
+# Eso, eso, eso es todo amigos. 
+🙉🙉🙊
+
