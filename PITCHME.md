@@ -36,7 +36,8 @@ PRIMERA ITERACIÓN
 A[1]<A[0] (67<15) no hay intercambio
 
 A: 15 67 08 16 44 27 12 35 
-----
+
+---
 
 SEGUNDA ITERACIÓN 
 
@@ -49,7 +50,8 @@ A: *08 *15 *67 16 44 27 12 35
 ---
 
 ## Análisis de eficiencia de Inserción directa
-• Comparaciones:
+
+#• Comparaciones:
 
 Cmin= n-1
 
@@ -57,7 +59,7 @@ Cmáx =(n2-n)/2
 
 Cmed=(n2*n-2)/4
 ---
-• Intercambios o Movimientos:
+## • Intercambios o Movimientos:
 
 Mmin= 0
 
