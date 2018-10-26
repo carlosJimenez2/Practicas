@@ -19,6 +19,9 @@ En cada iteración se analiza un elemento, y se intenta encontrar su orden entre
 elemento.
 2. Se inserta A[1] en la posición correcta, delante o detrás de A[0], dependiendo de que sea
 menor o mayor.
+
+--- 
+
 3. Por cada iteración i (desde i=1 hasta n-1) se explora una sublista buscando la posición correcta de inserción; a la vez se mueve a la derecha en la sublista una posición todos los elementos mayores que el elemento a insertar A[i], para dejar vacía esa posición.
 4. Insertar el elemento a la posición correcta.
 
@@ -69,6 +72,46 @@ Mmed=(n2-n)/4
 
 ---
 # Codigo 
+
+```
+        int[] datos = { 5, 3, 14, 20, 8, 9, 1 };
+        int i, j, datoTemporal;
+        int n = 7; // Numero de datos
+
+        // INSERCION DIRECTA:
+        // (Comparar cada elemento con los anteriores -que ya están ordenados- 
+        // y desplazarlo hasta su posición correcta).
+        // Para i=2 hasta n
+        //      j=i-1
+        //      mientras (j>=1) y (A[j] > A[j+1])
+        //          Intercambiar ( A[j], A[j+1])
+        //          j = j - 1
+        Console.WriteLine("\n Espere en la linea... ");
+        Console.WriteLine("\n ");
+        int[] datos3 = { 5, 3, 14, 20, 8, 9, 1 };
+        for (i = 1; i < n; i++)
+        {
+            foreach (int dato in datos3)  // Muestro datos
+                Console.Write("{0} ", dato);
+            Console.WriteLine();
+
+            j = i - 1;
+            while ((j >= 0) && (datos3[j] > datos3[j + 1]))
+            {
+                datoTemporal = datos3[j];
+                datos3[j] = datos3[j + 1];
+                datos3[j + 1] = datoTemporal;
+                j--;
+            }
+
+        }
+        Console.Write("\n Ya bien ordenado paps:");
+
+        foreach (int dato in datos3)  // Muestra datos finales
+            Console.Write("{0} ", dato);
+        Console.WriteLine();
+        Console.ReadKey();
+   ```
 ---
 
 ## Ventajas.
