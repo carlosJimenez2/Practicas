@@ -71,7 +71,7 @@ Mmáx =(n2-n)/2
 Mmed=(n2-n)/4
 
 ---
-# Codigo 
+## Codigo C# 
 
 ```
         int[] datos = { 5, 3, 14, 20, 8, 9, 1 };
