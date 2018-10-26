@@ -30,11 +30,13 @@ menor o mayor.
 
 ### Arreglo: 15 67 08 16 44 27 12 35
 
+
 PRIMERA ITERACIÓN
 
 A[1]<A[0] (67<15) no hay intercambio
 
 A: 15 67 08 16 44 27 12 35 
+----
 
 SEGUNDA ITERACIÓN 
 
@@ -54,7 +56,7 @@ Cmin= n-1
 Cmáx =(n2-n)/2
 
 Cmed=(n2*n-2)/4
-
+---
 • Intercambios o Movimientos:
 
 Mmin= 0
@@ -79,7 +81,7 @@ Mmed=(n2-n)/4
 # Eso, eso, eso es todo amigos. 
 🙉🙉🙊
 ---
-# Fuentes consultadas
+## Fuentes consultadas
 * file:///C:/Users/alumnos/Downloads/A06.pdf
 * http://mapaches.itz.edu.mx/~mbarajas/edinf/Ordenamiento.pdf
 * https://es.slideshare.net/tavo_3315_/insercin-directa-algoritmos-41637040
