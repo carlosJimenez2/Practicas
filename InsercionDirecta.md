@@ -1,7 +1,7 @@
 ## UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
-    ## Ténicas de programación 🤷‍♂️
+   ## Ténicas de programación 🤷‍♂️
  ## Ordenamiento de inserción directa 😢
-     ## Jimenez Arellano Carlos
+   ## Jimenez Arellano Carlos
 
 ---
     # Ordenamiento de inserción directa
